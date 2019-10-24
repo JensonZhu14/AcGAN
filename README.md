@@ -6,7 +6,7 @@ PyTorch implementation of the AcGAN algorithm.
 
 ### 1. The Architecture of AcGAN
 
-![Architecture of AcGAN](./images/face_aging_network.pdf)
+![Architecture of AcGAN](https://github.com/JensonZhu14/AcGAN/tree/master/images/face_aging_network.pdf)
 
 ### 2.Prerequisites
 
@@ -32,15 +32,15 @@ $ python main.py config/morph.yml
 
 * Attention Results
 
-![attention_results](./images/attention_result.pdf)
+![attention_results](https://github.com/JensonZhu14/AcGAN/tree/master/images/attention_result.pdf)
 
 * Results on Morph Dataset
 
-  ![](./images/aging_morph_result.pdf)
+  ![](https://github.com/JensonZhu14/AcGAN/tree/master/images/aging_morph_result.pdf)
 
 * Comparison of AcGAN, IPCGAN, and CAAE in Morph Dataset
 
-  ![](./images/comparison_in_vis.pdf)
+  ![](https://github.com/JensonZhu14/AcGAN/tree/master/images/comparison_in_vis.pdf)
 
   
 
