@@ -1,2 +1,53 @@
-# AcGAN
-The implement attention conditional GANs (AcGAN) model.
+## Look globally, age locally: Face aging with an attention mechanism (AcGAN)
+
+PyTorch implementation of the AcGAN algorithm. 
+
+----
+
+### 1. The Architecture of AcGAN
+
+![Architecture of AcGAN](./images/face_aging_network.pdf)
+
+### 2.Prerequisites
+
+* Python 3.6
+
+* PyTorch 1.3.0
+* GPU
+
+### Dataset & Preparation
+
+* [Morph](https://ebill.uncw.edu/C20231_ustores/web/classic/product_detail.jsp?PRODUCTID=8)
+* [CACD](http://bcsiriuschen.github.io/CARC/_)
+
+### Training
+
+Training a model by:
+
+```
+$ python main.py config/morph.yml
+```
+
+### Results
+
+* Attention Results
+
+![attention_results](./images/attention_result.pdf)
+
+* Results on Morph Dataset
+
+  ![](./images/aging_morph_result.pdf)
+
+* Comparison of AcGAN, IPCGAN, and CAAE in Morph Dataset
+
+  ![](./images/comparison_in_vis.pdf)
+
+  
+
+### Citation
+
+
+
+### License
+
+**AcGAN** is freely available for free non-commercial use, and may be redistributed under these conditions. For commercial queries, contact [Junping Zhang](http://www.pami.fudan.edu.cn/~jpzhang/).

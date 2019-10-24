@@ -14,7 +14,7 @@ dataset:
     - 62
   model_name: AcGAN
   test_size: 0.1
-ACGAN:
+AcGAN:
   is_ordinal_reg: False
   D_cond_weight: 100
   D_lr: 0.0001
