@@ -12,9 +12,9 @@ dataset:
   label_range:
     - 16
     - 62
-  model_name: AcGAN
+  model_name: AcGANs
   test_size: 0.1
-AcGAN:
+AcGANs:
   is_ordinal_reg: False
   D_cond_weight: 100
   D_lr: 0.0001

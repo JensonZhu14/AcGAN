@@ -2,7 +2,7 @@
 from copy import deepcopy
 import os
 import numpy as np
-from .AcGAN import AcGANModel
+from .AcGANs import AcGANsModel
 
 def initialize_model(config, datetime_str):
     print("Initializing model...")
@@ -12,8 +12,8 @@ def initialize_model(config, datetime_str):
     model_param['save_time'] = datetime_str
     for k in config['dataset']:
         model_param[k] = config['dataset'][k]
-    if model_name == "AcGAN":
-        model = AcGANModel(**model_param)
+    if model_name == "AcGANs":
+        model = AcGANsModel(**model_param)
     else:
         raise NotImplementedError
     print("Model initialization complete.")

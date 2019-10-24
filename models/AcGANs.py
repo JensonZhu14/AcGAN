@@ -5,7 +5,7 @@ import torch
 import torch.nn as nn
 import numpy as np
 from torch.autograd import Variable
-from .networks.AcGAN import Generator, Discriminator
+from .networks.AcGANs import Generator, Discriminator
 from .utils import evaluator, ops
 from torchvision.utils import save_image
 from torch.optim.lr_scheduler import MultiStepLR, StepLR
@@ -17,7 +17,7 @@ import os.path as osp
 import torch.multiprocessing as mp
 
 
-class AcGANModel(object):
+class AcGANsModel(object):
     def __init__(self,
                  G_lr,
                  D_lr,
