@@ -1,0 +1,37 @@
+dataset:
+  CUDA_VISIBLE_DEVICES: 0,1,2,3
+  age_group: 5
+  data_root: /home/zzhuang/FaceAging/dataset/morph_margin_0.1
+  dataset_name: morph
+  generate_age_list:
+    - 15
+    - 25
+    - 35
+    - 45
+    - 55
+  label_range:
+    - 16
+    - 77
+  model_name: AcGAN
+  test_size: 0.1
+ACGAN:
+  is_ordinal_reg: False
+  D_cond_weight: 100
+  D_lr: 0.0001
+  D_prob_weight: 10
+  G_lr: 0.0001
+  begin_save_epoch: 35
+  gradient_penalty_weight: 10
+  lr_decay: 0.9
+  lr_decay_epoch: 10
+  mask_smooth_weight: 0.0001
+  mask_weight: 2
+  max_epoch: 40
+  num_epoch_test: 2
+  restore_epoch: 0
+  resume_time: ''
+  update_netG_every_n_iter: 2  # default as 2
+  train_save_batch: 400
+  test_save_batch: 2000
+  image_size: 224
+  batch_size: 32
