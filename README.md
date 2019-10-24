@@ -1,8 +1,8 @@
-## Look globally, age locally: Face aging with an attention mechanism (AcGAN)
+## Look globally, age locally: Face aging with an attention mechanism (AcGANs)
 
 PyTorch implementation of the AcGAN algorithm. 
 
-### 1. The Architecture of AcGAN
+### 1. The Architecture of AcGANs
 
 ---
 
@@ -75,4 +75,4 @@ $ python main.py config/morph.yml
 
 
 
-**AcGAN** is freely available for free non-commercial use, and may be redistributed under these conditions. For commercial queries, contact [Junping Zhang](http://www.pami.fudan.edu.cn/~jpzhang/).
+**AcGANs** is freely available for free non-commercial use, and may be redistributed under these conditions. For commercial queries, contact [Junping Zhang](http://www.pami.fudan.edu.cn/~jpzhang/).
