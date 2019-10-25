@@ -10,7 +10,7 @@ PyTorch implementation of the AcGANs algorithm.
 
 ![Architecture of AcGAN](images/face_aging_network.png)
 
-### 2.Prerequisites
+### 2. Prerequisites
 
 ----
 
@@ -21,7 +21,7 @@ PyTorch implementation of the AcGANs algorithm.
 * PyTorch 1.3.0
 * GPU
 
-### Dataset & Preparation
+### 3. Dataset & Preparation
 
 ------
 
@@ -30,7 +30,7 @@ PyTorch implementation of the AcGANs algorithm.
 * [Morph](https://ebill.uncw.edu/C20231_ustores/web/classic/product_detail.jsp?PRODUCTID=8)
 * [CACD](http://bcsiriuschen.github.io/CARC/_)
 
-### Training
+### 4. Training
 
 ----
 
@@ -42,7 +42,7 @@ Training a model by:
 $ python main.py config/morph.yml
 ```
 
-### Results
+### 5. Results
 
 -----
 
@@ -61,7 +61,7 @@ $ python main.py config/morph.yml
 
   
 
-### Citation
+### 6. Citation
 
 -----
 
@@ -69,7 +69,7 @@ $ python main.py config/morph.yml
 
 
 
-### License
+### 7. License
 
 ------
 
