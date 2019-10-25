@@ -1,6 +1,6 @@
 ## Look globally, age locally: Face aging with an attention mechanism (AcGANs)
 
-PyTorch implementation of the AcGAN algorithm. 
+PyTorch implementation of the AcGANs algorithm. 
 
 ### 1. The Architecture of AcGANs
 
@@ -51,11 +51,11 @@ $ python main.py config/morph.yml
 * Attention Results
 * ![attention_results](images/attention_result.png)
 
-* Results on Morph Dataset
+* Results on the Morph Dataset
 
 * ![results_on_morph](images/aging_morph_result.png)
 
-* Comparison of AcGAN, IPCGAN, and CAAE in Morph Dataset
+* Comparison of AcGANs, IPCGANs, and CAAE in the Morph Dataset
 
   ![comparison_result](images/comparison_in_vis.png)
 
