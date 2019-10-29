@@ -1,6 +1,6 @@
 ## Look globally, age locally: Face aging with an attention mechanism (AcGANs)
 
-PyTorch implementation of the AcGANs algorithm. 
+PyTorch implementation of the AcGANs algorithm in the paper ``[Look globally, age locally: Face aging with an attention mechanism.](http://arxiv.org/abs/1910.12771)''. 
 
 ### 1. The Architecture of AcGANs
 
@@ -65,7 +65,7 @@ $ python main.py config/morph.yml
 
 -----
 
-
+*Haiping Zhu, Zhizhong Huang, Hongming Shan, Junping Zhang*. Look globally, age locally: Face aging with an attention mechanism. arXiv:1910.12771, 2019.
 
 
 
