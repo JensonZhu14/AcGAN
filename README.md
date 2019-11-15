@@ -65,7 +65,7 @@ $ python main.py config/morph.yml
 
 -----
 
-*Haiping Zhu, Zhizhong Huang, Hongming Shan, Junping Zhang*. Look globally, age locally: Face aging with an attention mechanism. arXiv:1910.12771, 2019.
+Zhu H, Huang Z, Shan H, et al. Look globally, age locally: Face aging with an attention mechanism[J]. arXiv preprint arXiv:1910.12771, 2019.
 
 
 
